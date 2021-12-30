@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+}
+header{
+  background: url("./maquette-mini-projet[970].png") no-repeat;
+  height: 300px;
+  background-size: cover;
+  width: 100%;
+}
+div span{
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.overview_div{
+  display: flex;
+  justify-content: space-around;
+}
+h2{
+  border-bottom: 1px solid grey;
+}
+.time1, .time3{
+  padding: 20px 10px;
+}
+.time2{
+  padding: 20px 14px;
+}
+.euros{
+  padding: 20px 23px;
+}
+.difficulty{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.div_table{
+  border: 1px solid black;
+}
+tbody tr:nth-child(odd){
+  background-color: grey;
+}
+table{
+  width: 100%;
+}
+@media screen and (max-width: 600px){
+  .overview_div{
+    display: flex;
+    flex-direction: column;
+    width: 25%; 
+    margin: 0 auto;
+  }
+  div span{
+    padding: 10px;
+  }
+}
